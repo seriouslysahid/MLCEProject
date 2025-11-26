@@ -20,6 +20,12 @@ ENV/
 /data/*.dat
 /data/*.txt
 /data/*.parquet
+/data/CICIDS2017/*.csv
+/data/CICIDS2017/*.pcap
+/data/X_train.csv
+/data/X_test.csv
+/data/y_train.csv
+/data/y_test.csv
 !data/README.md
 !data/.gitkeep
 
@@ -59,3 +65,8 @@ dist/
 # Test coverage
 .coverage
 htmlcov/
+
+# Helper scripts (project-specific)
+add_kaggle_download.py
+update_kaggle_download.py
+clean_notebooks.py
