@@ -1,26 +1,29 @@
-# Network Intrusion Detection System (NIDS) - Dependencies
-# Python 3.9+
+# NIDS ML Project Dependencies
+# Generated: November 27, 2025
 
 # Core Data Science
-numpy>=1.21.0
-pandas>=1.3.0
-
-# Machine Learning
-scikit-learn>=1.0.0
+numpy>=2.0.0
+pandas>=2.2.0
 
 # Visualization
-matplotlib>=3.4.0
-seaborn>=0.11.0
+matplotlib>=3.8.0
+seaborn>=0.13.0
+scipy>=1.11.0
 
-# Utilities
-scipy>=1.7.0
+# Machine Learning
+scikit-learn>=1.4.0
 
-# Dataset Download
-kagglehub>=0.2.0
+# Dataset & I/O
+kagglehub>=0.3.0
+pyarrow>=14.0.0
 
-# Jupyter Notebook (for development)
-jupyter>=1.0.0
-ipykernel>=6.0.0
+# Interactive & GPU
+ipywidgets>=8.1.0
+torch>=2.1.0
 
-# Optional: For saving models
-joblib>=1.0.0
+# Progress bars
+tqdm>=4.66.0
+
+# Jupyter
+notebook>=7.0.0
+nbformat>=5.10.0
