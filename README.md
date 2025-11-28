@@ -112,12 +112,48 @@ Implementing this NIDS solution offers tangible business value:
 
 3.  **Run the Workflow**:
     Launch the Jupyter Notebook to execute the pipeline:
-    ```bash
+    # MLCEProject
+
+    This repository contains a compact machine learning pipeline and an example Jupyter notebook for exploring, training, and evaluating models on tabular/network datasets. The project aims for reproducible experiments, clear structure, and an easy quick start.
+
+    **Overview**
+    - **Purpose**: Reproducible example pipeline for data preprocessing, model training, and evaluation.
+    - **Audience**: data scientists, ML engineers, and students who want a simple but complete ML workflow to extend.
+
+    **Repository Structure**
+    - `data/`: raw and processed datasets (place datasets here).
+    - `notebooks/`: interactive analysis and pipeline runner (`notebook.ipynb`).
+    - `outputs/`: generated artifacts (models, figures, logs).
+    - `requirements.txt`: Python dependencies for this project.
+    - `README.md`: this file.
+
+    **Quick Start**
+    - **Requirements**: Python 3.8+ and `pip`.
+    - **Install dependencies** (PowerShell):
+    ```pwsh
+    python -m pip install --upgrade pip
+    pip install -r requirements.txt
+    ```
+    - **Run the example notebook** (PowerShell):
+    ```pwsh
+    # from repository root
     jupyter notebook notebooks/notebook.ipynb
     ```
-    *The notebook handles dataset downloading, preprocessing, training, and evaluation automatically.*
 
----
+    The notebook demonstrates dataset loading from `data/`, preprocessing, training, evaluation, and saving results to `outputs/`.
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+    **Usage Notes**
+    - Add datasets to `data/` or update the notebook to download them automatically.
+    - Run notebook cells in order to reproduce the end-to-end pipeline.
+
+    **Contributing**
+    - Open an issue to discuss changes or fixes.
+    - Submit a pull request and update `requirements.txt` for any new dependencies.
+
+    **License**
+    - See the `LICENSE` file in the repository (if absent, indicate desired license before using).
+
+    **Contact**
+    - Maintainer: repository owner (see GitHub repo for contact information).
+
+    If you'd like, I can add a `CONTRIBUTING.md`, improve the notebook usage section, or scaffold a `LICENSE` file — tell me which you prefer next.
